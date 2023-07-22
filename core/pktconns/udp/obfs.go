@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/apernet/hysteria/core/pktconns/obfs"
+	"github.com/Yuzuki616/hysteria/core/pktconns/obfs"
 )
 
 const udpBufferSize = 4096

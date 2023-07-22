@@ -6,20 +6,20 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
+	"github.com/Yuzuki616/quic-go"
 	"math/rand"
 	"net"
 	"strconv"
 	"sync"
 	"time"
 
-	"github.com/apernet/hysteria/core/pktconns"
+	"github.com/Yuzuki616/hysteria/core/pktconns"
 
-	"github.com/apernet/hysteria/core/congestion"
+	"github.com/Yuzuki616/hysteria/core/congestion"
 
-	"github.com/apernet/hysteria/core/pmtud"
-	"github.com/apernet/hysteria/core/utils"
+	"github.com/Yuzuki616/hysteria/core/pmtud"
+	"github.com/Yuzuki616/hysteria/core/utils"
 	"github.com/lunixbochs/struc"
-	"github.com/quic-go/quic-go"
 )
 
 var ErrClosed = errors.New("closed")

@@ -8,7 +8,7 @@ import (
 
 	lru "github.com/hashicorp/golang-lru/v2"
 
-	"github.com/apernet/hysteria/core/utils"
+	"github.com/Yuzuki616/hysteria/core/utils"
 	"github.com/oschwald/geoip2-golang"
 )
 

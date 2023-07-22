@@ -8,7 +8,7 @@
 
 [3]: https://img.shields.io/github/v/release/apernet/hysteria?style=flat-square
 
-[4]: https://github.com/apernet/hysteria/releases
+[4]: https://github.com/Yuzuki616/hysteria/releases
 
 [5]: https://img.shields.io/badge/chat-Telegram-blue?style=flat-square
 
@@ -16,7 +16,7 @@
 
 [7]: https://img.shields.io/github/discussions/apernet/hysteria?style=flat-square
 
-[8]: https://github.com/apernet/hysteria/discussions
+[8]: https://github.com/Yuzuki616/hysteria/discussions
 
 ![AperNet](docs/logos/AperNetLogo.png)
 

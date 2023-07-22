@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apernet/hysteria/core/pktconns/faketcp"
-	"github.com/apernet/hysteria/core/pktconns/obfs"
-	"github.com/apernet/hysteria/core/pktconns/udp"
-	"github.com/apernet/hysteria/core/pktconns/wechat"
+	"github.com/Yuzuki616/hysteria/core/pktconns/faketcp"
+	"github.com/Yuzuki616/hysteria/core/pktconns/obfs"
+	"github.com/Yuzuki616/hysteria/core/pktconns/udp"
+	"github.com/Yuzuki616/hysteria/core/pktconns/wechat"
 )
 
 type (

@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/apernet/hysteria/core/acl"
-	"github.com/apernet/hysteria/core/transport"
-	"github.com/apernet/hysteria/core/utils"
+	"github.com/Yuzuki616/hysteria/core/acl"
+	"github.com/Yuzuki616/hysteria/core/transport"
+	"github.com/Yuzuki616/hysteria/core/utils"
+	"github.com/Yuzuki616/quic-go"
 	"github.com/lunixbochs/struc"
-	"github.com/quic-go/quic-go"
 )
 
 const udpBufferSize = 4096

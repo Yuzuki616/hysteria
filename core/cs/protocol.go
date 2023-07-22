@@ -1,9 +1,8 @@
 package cs
 
 import (
+	"github.com/Yuzuki616/quic-go"
 	"time"
-
-	"github.com/quic-go/quic-go"
 )
 
 const (

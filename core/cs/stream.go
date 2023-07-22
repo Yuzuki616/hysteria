@@ -2,9 +2,8 @@ package cs
 
 import (
 	"context"
+	"github.com/Yuzuki616/quic-go"
 	"time"
-
-	"github.com/quic-go/quic-go"
 )
 
 // qStream is a wrapper of quic.Stream that handles Close() correctly.

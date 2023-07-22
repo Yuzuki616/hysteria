@@ -5,15 +5,15 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
+	"github.com/Yuzuki616/quic-go"
 	"net"
 
-	"github.com/apernet/hysteria/core/congestion"
+	"github.com/Yuzuki616/hysteria/core/congestion"
 
-	"github.com/apernet/hysteria/core/acl"
-	"github.com/apernet/hysteria/core/pmtud"
-	"github.com/apernet/hysteria/core/transport"
+	"github.com/Yuzuki616/hysteria/core/acl"
+	"github.com/Yuzuki616/hysteria/core/pmtud"
+	"github.com/Yuzuki616/hysteria/core/transport"
 	"github.com/lunixbochs/struc"
-	"github.com/quic-go/quic-go"
 )
 
 type (

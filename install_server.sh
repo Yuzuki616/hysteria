@@ -30,7 +30,7 @@ SYSTEMD_SERVICES_DIR="/etc/systemd/system"
 CONFIG_DIR="/etc/hysteria"
 
 # URLs of GitHub
-REPO_URL="https://github.com/apernet/hysteria"
+REPO_URL="https://github.com/Yuzuki616/hysteria"
 API_BASE_URL="https://api.github.com/repos/apernet/hysteria"
 
 # curl command line flags.
@@ -933,7 +933,7 @@ perform_install() {
     echo
     echo -e "$(tbold)Hysteria has been successfully update to $VERSION.$(treset)"
     echo
-    echo -e "Check out the latest changelog $(tblue)https://github.com/apernet/hysteria/blob/master/CHANGELOG.md$(treset)"
+    echo -e "Check out the latest changelog $(tblue)https://github.com/Yuzuki616/hysteria/blob/master/CHANGELOG.md$(treset)"
     echo
   fi
 }
